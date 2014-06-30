@@ -11,6 +11,7 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
+" If using the chef-vim-setup cookbook, this should be ~/.vim/bundle/vundle
 set rtp+=~/.vim/bundle/vundle
 call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
